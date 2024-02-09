@@ -8,7 +8,7 @@ int main() {
  
     cin >> n >> m; 
  
-    int node[n]{0}; 
+    int node[n]; 
  
     int q; 
     int e; 
