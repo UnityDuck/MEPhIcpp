@@ -10,7 +10,7 @@ long long rec(long long a, long long n) {
         return a;
     }
     else if (n % 2 == 0) {
-        return a * a * rec(a, n / 2);
+        return rec(a * a, n / 2);
     }
     else if (n % 2 == 1) {
         return a * rec(a, n - 1);
